@@ -11,7 +11,7 @@ Note: This is a work in progress and will be continually updated.
 ## Q&A
 
 ### How do I get started?
-Fork this repository and start coding away! Test your solution by running the associated unit test. When you are reading to submit, submit a Pull Request to the [submissions](https://github.com/Py-Lambdas/code-challenges/tree/submissions) branch with your solution.
+Fork this repository and start coding away!🚀 Test your solution by running the associated unit test. When you are reading to submit, submit a Pull Request to the [submissions](https://github.com/Py-Lambdas/code-challenges/tree/submissions) branch with your solution.
 
 ### Can I help you out with code reviewing?
 Absolutely! All challenges have associated unit tests to check if the code is correct or not. However, we would love any help in manual code review when possible! We want this to be a *community effort*.
@@ -46,7 +46,10 @@ Prior to submitting, please run your code through [black](https://github.com/psf
 ### Can I get help if I am stuck?
 Yes! Reach out on Discord for any help you may need!
 
-## Challenges
+### What if I find an issue/bug in a challenge?
+Submit all issues [here](https://github.com/Py-Lambdas/code-challenges/issues). Issue submissions should include specific filename and the problem. If you have a solution for the bug, include that as well! 😀
+
+## Challenges 🐍
 Challenges are organized from Very Easy -> Expert. Within each category, they are in no particular order.
 
 ### Very Easy
