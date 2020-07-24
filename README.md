@@ -45,3 +45,11 @@ Prior to submitting, please run your code through [black](https://github.com/psf
 
 ### Can I get help if I am stuck?
 Yes! Reach out on Discord for any help you may need!
+
+## Challenges
+Challenges are organized from Very Easy -> Expert. Within each category, they are in no particular order.
+
+### Very Easy
+- [Return the Sum of Two Numbers](https://github.com/Py-Lambdas/code-challenges/tree/master/Return_Sum_of_Two_Numbers)
+- [Return the Next Number](https://github.com/Py-Lambdas/code-challenges/tree/master/Return_Next_Number)
+- [Convert Minutes to Seconds](https://github.com/Py-Lambdas/code-challenges/tree/master/Convert_Minutes_to_Seconds)
