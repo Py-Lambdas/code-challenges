@@ -66,3 +66,4 @@ Challenges are organized from Very Easy -> Expert. Within each category, they ar
 
 ### Easy
 - [Alphabet Soup](https://github.com/Py-Lambdas/code-challenges/tree/master/Alphabet%20Soup)
+- [Find the Perimeter of a Rectangle](https://github.com/Py-Lambdas/code-challenges/tree/master/Perimeter_of_Rectangle)
