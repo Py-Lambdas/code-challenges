@@ -15,7 +15,7 @@ Fork this repository and start coding away! Test your solution by running the as
 Absolutely! All challenges have associated unit tests to check if the code is correct or not. However, we would love any help in manual code review when possible! We want this to be a *community effort*.
 
 ### Can I add code challenges?
-Yes! Please submit a Pull Request with any challenges you want to add. All code challenges must include a unit test file (make sure your tests pass first!)
+Yes! Please submit a Pull Request to the [challenges](https://github.com/Py-Lambdas/code-challenges/tree/challenges) branch with any challenges you want to add. All code challenges must include a unit test file (make sure your tests pass first!)
 
 Code challenges should be written in the following format:
 
