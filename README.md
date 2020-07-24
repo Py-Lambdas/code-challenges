@@ -6,6 +6,8 @@ Welcome to the Py-Lambdas Code Challenges Page.
 
 These are code challenges and mini coding projects created by our Py-Lambdas community.
 
+Note: This is a work in progress and will be continually updated.
+
 ## Q&A
 
 ### How do I get started?
