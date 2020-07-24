@@ -13,6 +13,13 @@ These are code challenges and mini coding projects created by our Py-Lambdas com
 ### How do I get started?
 Fork this repository and start coding away!🚀 Test your solution by running the associated unit test. When you are reading to submit, submit a Pull Request to the [submissions](https://github.com/Py-Lambdas/code-challenges/tree/submissions) branch with your solution.
 
+### How do I check my code?
+Within the directory of your code challenge, run the following command for unit testing:
+
+```
+python -m unittest discover
+```
+
 ### Can I help you out with code reviewing?
 Absolutely! All challenges have associated unit tests to check if the code is correct or not. However, we would love any help in manual code review when possible! We want this to be a *community effort*.
 
