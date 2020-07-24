@@ -6,7 +6,7 @@ Welcome to the Py-Lambdas Code Challenges Page.
 
 These are code challenges and mini coding projects created by our Py-Lambdas community.
 
-Note: This is a work in progress and will be continually updated.
+⚠️ Note: Construction ahead!! This is a work in progress and will be continually updated.
 
 ## Q&A
 
@@ -56,3 +56,6 @@ Challenges are organized from Very Easy -> Expert. Within each category, they ar
 - [Return the Sum of Two Numbers](https://github.com/Py-Lambdas/code-challenges/tree/master/Return_Sum_of_Two_Numbers)
 - [Return the Next Number](https://github.com/Py-Lambdas/code-challenges/tree/master/Return_Next_Number)
 - [Convert Minutes to Seconds](https://github.com/Py-Lambdas/code-challenges/tree/master/Convert_Minutes_to_Seconds)
+
+### Easy
+- [Alphabet Soup](https://github.com/Py-Lambdas/code-challenges/tree/master/Alphabet%20Soup)
