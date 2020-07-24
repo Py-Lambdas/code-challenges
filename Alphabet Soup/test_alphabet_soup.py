@@ -1,20 +1,16 @@
-import unittest
+import pytest
 from alphabet_soup import *
 
 
-class ReturnSumTwoNumbersTests(unittest.TestCase):
-    def test(self):
-        self.assertEqual(alphabet_soup("hello"), "ehllo")
-        self.assertEqual(alphabet_soup("edabit"), "abdeit")
-        self.assertEqual(alphabet_soup("hacker"), "acehkr")
-        self.assertEqual(alphabet_soup("geek"), "eegk")
-        self.assertEqual(alphabet_soup("javascript"), "aacijprstv")
-        self.assertEqual(alphabet_soup("credibility"), "bcdeiiilrty")
-        self.assertEqual(alphabet_soup("apostrophe"), "aehoopprst")
-        self.assertEqual(alphabet_soup("determination"), "adeeiimnnortt")
-        self.assertEqual(alphabet_soup("win"), "inw")
-        self.assertEqual(alphabet_soup("synthesis"), "ehinsssty")
+def test():
+    assert alphabet_soup("hello") == "ehllo"
+    assert alphabet_soup("edabit") == "abdeit"
+    assert alphabet_soup("hacker") == "acehkr"
+    assert alphabet_soup("geek") == "eegk"
+    assert alphabet_soup("javascript") == "aacijprstv"
+    assert alphabet_soup("credibility") == "bcdeiiilrty"
+    assert alphabet_soup("apostrophe") == "aehoopprst"
+    assert alphabet_soup("determination") == "adeeiimnnortt"
+    assert alphabet_soup("win") == "inw"
+    assert alphabet_soup("synthesis") == "ehinsssty"
 
-
-if __name__ == "__main__":
-    unittest.main()
