@@ -63,6 +63,7 @@ Challenges are organized from Very Easy -> Expert. Within each category, they ar
 - [Return the Sum of Two Numbers](https://github.com/Py-Lambdas/code-challenges/tree/master/Return_Sum_of_Two_Numbers)
 - [Return the Next Number](https://github.com/Py-Lambdas/code-challenges/tree/master/Return_Next_Number)
 - [Convert Minutes to Seconds](https://github.com/Py-Lambdas/code-challenges/tree/master/Convert_Minutes_to_Seconds)
+- [Capitalization and mutability](https://github.com/Py-Lambdas/code-challenges/tree/master/Capitalization_and_Mutability)
 
 ### Easy
 - [Alphabet Soup](https://github.com/Py-Lambdas/code-challenges/tree/master/Alphabet%20Soup)
