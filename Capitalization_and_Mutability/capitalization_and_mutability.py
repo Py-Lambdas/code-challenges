@@ -14,5 +14,3 @@ Author: @joshrutkowski
 def capitalize_string(word):
     return "".join(char.isupper() for char in word)
 
-
-capitalize_string("string")
