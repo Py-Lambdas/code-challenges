@@ -21,6 +21,10 @@ Within the directory of your code challenge, run the following command for unit 
 ```
 python -m unittest discover
 ```
+If the challenge is utilizing `pytest`, run the following (after `pytest` has been installed):
+```
+python -m pytest [filename.py]
+```
 
 ### Can I help you out with code reviewing?
 
