@@ -20,6 +20,6 @@ Author: BrannanC
 """
 
 
-def topological_sort(jobs, deps):
+def topological_sort(tasks, deps):
     # Write your code here
     pass
