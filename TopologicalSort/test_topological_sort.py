@@ -1,6 +1,5 @@
 import pytest
-from topological_sort import *
-
+from topological_sort import  *
 
 def test_valid_one():
     tasks = [4, 3, 2, 1]
@@ -42,9 +41,10 @@ def is_topol_ordered(tasks, deps):
             deps_graph[d[1]].append(d[0])
         else:
             deps_graph[d[1]] = [d[0]]
-
     for t in tasks:
-        if t in deps_graph and len(deps_graph[t]):
+        if t not in deps_graph:
+            return False
+        if len(deps_graph[t]):
             return False
         for d in deps_graph.values():
             if t in d:
