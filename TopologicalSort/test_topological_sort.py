@@ -51,7 +51,7 @@ def is_topol_ordered(ordered, tasks, deps):
             return False
         if len(deps_graph[t]):
             return False
-        for k, d in deps_graph:
-            if t == d:
-                deps_graph[k].remove(t)
+        for d in deps_graph.values():
+            if t in d:
+                d.remove(t)
     return True
