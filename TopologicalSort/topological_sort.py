@@ -20,6 +20,7 @@ Author: BrannanC
 """
 from collections import defaultdict
 
+
 def topological_sort(jobs, deps):
     r = []
     ld = defaultdict(list)
