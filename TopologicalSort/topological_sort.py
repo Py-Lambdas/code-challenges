@@ -20,6 +20,7 @@
 # """
 from collections import defaultdict
 
+
 def topological_sort(j, deps):
     jobs = j[::1]
     # print(f'jobs {jobs}')
@@ -57,5 +58,4 @@ def topological_sort(j, deps):
 if __name__ == "__main__":
     tasksx = [1, 2, 3, 4, 5, 6, 7, 8]
     depsx = [[4, 2], [1, 2], [1, 8], [6, 8], [6, 3], [2, 5], [7, 8], [2, 3], [8, 7]]
-    print('topological_sort', topological_sort(tasksx, depsx))
-
+    print("topological_sort", topological_sort(tasksx, depsx))
