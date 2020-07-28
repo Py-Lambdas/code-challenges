@@ -43,13 +43,10 @@ def is_topol_ordered(ordered, tasks, deps):
         return False
 
     for d in deps:
-        if d[1] in deps_graph:
-            deps_graph[d[1]].append(d[0])
+        deps_graph[d[1]].append(d[0])
 
     for t in ordered:
-        if t not in deps_graph:
-            return False
-        if len(deps_graph[t]):
+        if t in deps_graph and len(deps_graph[t]):
             return False
         for d in deps_graph.values():
             if t in d:
