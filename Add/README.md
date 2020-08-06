@@ -56,6 +56,8 @@ ValueError: Given matrices are not the same size.
 
 Change directory in your terminal to the `Add` directory and then run `python -m unittest` to run the tests for this challenge.
 
-Feel free to reference the tests if you have any confusion about the expected behavior of the add function.
+If you'd like to try the bonus challenges, you'll want to comment out the noted lines of code in the test file to test them properly.
+
+Finally, Feel free to reference the tests if you have any confusion about the expected behavior of the add function.
 
 Good luck!
