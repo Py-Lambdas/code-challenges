@@ -29,7 +29,7 @@ class CircleTests(unittest.TestCase):
 
     def test_area(self):
         """
-        The area of a circle should always be `π * diameter`
+        The area of a circle should always be `π * radius**2`
         """
         circle = Circle(2)
         self.assertEqual(circle.area, math.pi * 4)
