@@ -3,7 +3,7 @@ name: Incorrect solution
 about: Let us know that one of our challenges is incorrect
 title: "[ERRATA] -> (enter your issue title here)"
 labels: bug
-assignees: ''
+assignees: @py-lambdas/code-challenges
 
 ---
 

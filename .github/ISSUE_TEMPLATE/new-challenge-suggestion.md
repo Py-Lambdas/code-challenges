@@ -4,7 +4,7 @@ about: Tell us about a topic you'd like us to create a challenge for
 title: "[(change this to the topic or module you want to learn)] -> (change this to
   the title of your issue)"
 labels: challenge:new-addition
-assignees: ''
+assignees: @py-lambdas/code-challenges
 
 ---
 
