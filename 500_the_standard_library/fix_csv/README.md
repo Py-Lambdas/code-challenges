@@ -68,7 +68,7 @@ This is a bit trickier and your solution will likely not work correctly for all 
 
 ## Tests
 
-Change directory in your terminal to the `FixCsv` directory and then run `python -m unittest` to run the tests for this challenge.
+Move your terminal to the directory that contains this README and then run `python -m unittest` to run the tests for this challenge.
 
 You'll notice that there are no CSV files in this directory, and that's on purpose. If you examine the tests, you'll see that I'm generating files when you run the tests and then cleaning them up afterwards.
 

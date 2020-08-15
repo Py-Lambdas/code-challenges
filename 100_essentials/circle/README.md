@@ -89,7 +89,7 @@ This means that diameter cannot be negative either (and setting diameter to a ne
 
 ## Tests
 
-Change directory in your terminal to the `Circle` directory and then run `python -m unittest` to run the tests for this challenge.
+Move your terminal to the directory that contains this README and then run `python -m unittest` to run the tests for this challenge.
 
 Feel free to reference the tests if you have any confusion about the expected behavior of the Circle class.
 

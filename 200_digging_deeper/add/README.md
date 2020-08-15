@@ -54,7 +54,7 @@ ValueError: Given matrices are not the same size.
 
 ## Tests
 
-Change directory in your terminal to the `Add` directory and then run `python -m unittest` to run the tests for this challenge.
+Move your terminal to the directory that contains this README and then run `python -m unittest` to run the tests for this challenge.
 
 If you'd like to try the bonus challenges, you'll want to comment out the noted lines of code in the test file to test them properly.
 
