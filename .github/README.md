@@ -84,10 +84,11 @@ This series of challenges is meant to ensure you understand the basics of Python
 
 Now that you've got the essentials of Python under your belt, these challenges are meant to take you on a tour of some of the more commonly seen yet Python-specific features of the language.
 
-|                        name                        |             topics             |     author      |
-| :------------------------------------------------: | :----------------------------: | :-------------: |
-|     [add](../200_digging_deeper/add/README.md)     |        `comprehensions`        | @nickcannariato |
-| [compact](../200_digging_deeper/compact/README.md) | `comprehensions`, `generators` | @nickcannariato |
+|                        name                        |               topics               |     author      |
+| :------------------------------------------------: | :--------------------------------: | :-------------: |
+|     [add](../200_digging_deeper/add/README.md)     |          `comprehensions`          | @nickcannariato |
+| [compact](../200_digging_deeper/compact/README.md) |   `comprehensions`, `generators`   | @nickcannariato |
+|    [tail](../200_digging_deeper/tail/README.md)    | `sequences`, `iterators`, `queues` | @nickcannariato |
 
 ### 300-level: Peculiarities
 
