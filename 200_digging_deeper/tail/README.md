@@ -1,6 +1,6 @@
 # Tail
 
-Make a function that takes a sequence of items (`items`) (like a list, string, or tuple) and a number (`n`) and returns the last n elements from the given sequence, as a list.
+Make a function that takes a [sequence](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range) of items (`items`) (like a list, string, or tuple) and a number (`n`) and returns the last n elements from the given sequence, as a list.
 
 For example:
 
@@ -13,7 +13,7 @@ For example:
 []
 ```
 
-Make sure that your function return an empty list for negative values of n:
+Make sure that your function returns an empty list for negative values of n:
 
 ```python
 >>> tail('hello', -2)
@@ -22,7 +22,7 @@ Make sure that your function return an empty list for negative values of n:
 
 ## Bonus
 
-As a bonus, refactor your function to work with any iterable, not just sequences. For example:
+As a bonus, refactor your function to work with any [iterable](https://docs.python.org/3/glossary.html#term-iterable), not just [sequences](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range). For example:
 
 ```python
 >>> squares = (n**2 for n in range(10))
