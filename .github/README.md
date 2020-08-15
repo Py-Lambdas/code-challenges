@@ -84,25 +84,26 @@ This series of challenges is meant to ensure you understand the basics of Python
 
 Now that you've got the essentials of Python under your belt, these challenges are meant to take you on a tour of some of the more commonly seen yet Python-specific features of the language.
 
-|             name              |                  topics                   |     author      |
-| :---------------------------: | :---------------------------------------: | :-------------: |
-| [Circle](../Circle/README.md) | `classes`, `properties`, `dunder methods` | @nickcannariato |
+|                        name                        |             topics             |     author      |
+| :------------------------------------------------: | :----------------------------: | :-------------: |
+|     [add](../200_digging_deeper/add/README.md)     |        `comprehensions`        | @nickcannariato |
+| [compact](../200_digging_deeper/compact/README.md) | `comprehensions`, `generators` | @nickcannariato |
 
 ### 300-level: Peculiarities
 
 Most programming language have opinions that are particular or peculiar, and Python is no exception. Static types vs dynamic types, pass by value or pass by reference, How you should raise and react to errors, etc. These challenges are meant to expose you to those peculiarities and help you think pythonically
 
-|             name              |                  topics                   |     author      |
-| :---------------------------: | :---------------------------------------: | :-------------: |
-| [Circle](../Circle/README.md) | `classes`, `properties`, `dunder methods` | @nickcannariato |
+|    name     |    topics     |    author    |
+| :---------: | :-----------: | :----------: |
+| PLACEHOLDER | `PLACEHOLDER` | @PLACEHOLDER |
 
 ### 400-level: Paradigm pathways
 
 Python allows for both Object-oriented programming and Functional programming, and these challenges are designed to help you learn how it thinks about both of of those paradigms.
 
-|             name              |                  topics                   |     author      |
-| :---------------------------: | :---------------------------------------: | :-------------: |
-| [Circle](../Circle/README.md) | `classes`, `properties`, `dunder methods` | @nickcannariato |
+|    name     |    topics     |    author    |
+| :---------: | :-----------: | :----------: |
+| PLACEHOLDER | `PLACEHOLDER` | @PLACEHOLDER |
 
 ### 500-level: The Standard Library
 
@@ -110,9 +111,9 @@ Now that you've got a really good handle on Python's language features, we're go
 
 The particular module(s) used by a given challenge will be listed in the `modules` column, which you'll notice has replaced the `topics` column above.
 
-|             name              |                  topics                   |     author      |
-| :---------------------------: | :---------------------------------------: | :-------------: |
-| [Circle](../Circle/README.md) | `classes`, `properties`, `dunder methods` | @nickcannariato |
+|                           name                           |      modules      |     author      |
+| :------------------------------------------------------: | :---------------: | :-------------: |
+| [fix_csv](../500_the_standard_library/fix_csv/README.md) | `csv`, `argparse` | @nickcannariato |
 
 ### Misc
 
