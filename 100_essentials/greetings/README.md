@@ -19,8 +19,10 @@ Functions can be passed to other functions. Define a function named `greet_with_
 ```python
 >>> def starify(s):
 ...    return "*".join(list(s))
->>> greet_with_style("Citizen", "Hello", starify, puncuation="!", sep='*' shout=True)
-'C*I*T*I*Z*E*N***H*E*L*L*O*!'
+>>> def capitalize(s):
+...    return s.upper()
+>>> greet_with_style("Citizen", "Hello", starify, capitalize, puncuation="!", sep='*')
+'G*R*E*E*T*I*N*G*S***C*I*T*I*Z*E*N*!'
 ```
 
 - add_epitaphs(name, \*\*kwargs)
@@ -28,8 +30,8 @@ Functions can be passed to other functions. Define a function named `greet_with_
 
 ```python
 # TESTS
-greet_with_style("Citizen", "Hello", starify, puncuation="!", sep='*' shout=True)
-'C*I*T*I*Z*E*N***H*E*L*L*O*!'
+greet_with_style("Citizen", "Hello", starify, puncuation="!", sep='*')
+'H*e*l*l*o*,* *C*i*t*i*z*e*n*!'
 
 greet_with_style(add_epitaphs("Citizen", **epitaphs), puncuation="!", shout=True)
 "HELLO, CITIZEN, SON OF GREG, LEADER OF KOBOLDS!"
