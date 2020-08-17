@@ -14,7 +14,7 @@ Additionally, the message should default to "Hello" if none is provided.
 'Hello, Dave!'
 ```
 
-Function arguments can also be functions. Define a function named `greet_with_style` that takes a name as a positional argument, plus an arbitrary number of functions, an optional kew word parameter named `msg` that defaults to 'Hello', another key word argument named `sep` that defaults to ', ', and a required keyword parameter named `punctuation`. `greet_with_style` should return a greeting (name + sep + message + puncuation) with all functions applied to it.
+Functions can be passed to other functions. Define a function named `greet_with_style` that takes a name as a positional parameter, plus an arbitrary number of functions, an optional kew word parameter named `msg` that defaults to 'Hello', another optional key word parameter named `sep` that defaults to ', ', and a required keyword parameter named `punctuation`. `greet_with_style` should return a greeting (name + sep + message + puncuation) with all functions applied to it.
 
 ```python
 >>> def starify(s):
@@ -29,7 +29,7 @@ Function arguments can also be functions. Define a function named `greet_with_st
 ```python
 # TESTS
 greet_with_style("Citizen", "Hello", starify, puncuation="!", sep='*' shout=True)
-'C*I*T*I*Z*E*N***H*E*L*L*O!'
+'C*I*T*I*Z*E*N***H*E*L*L*O*!'
 
 greet_with_style(add_epitaphs("Citizen", **epitaphs), puncuation="!", shout=True)
 "HELLO, CITIZEN, SON OF GREG, LEADER OF KOBOLDS!"
