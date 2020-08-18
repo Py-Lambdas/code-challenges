@@ -1,10 +1,16 @@
 from inspect import getfullargspec, signature
+from typing import Callable
 import unittest
 
 from greetings import greet, greet_with_style, add_epitaphs
 
 
-def cap(x): return x.upper()
+def cap(x):
+    return x.upper()
+
+
+def starify(s):
+    return "*".join(list(s))
 
 
 class GreetingsTest(unittest.TestCase):
@@ -34,6 +40,7 @@ class GreetingsTest(unittest.TestCase):
 
     def test_greet_with_style(self):
         argspec = getfullargspec(greet_with_style)
+
         self.assertEqual(
             len(argspec.args),
             1,
@@ -74,18 +81,9 @@ class GreetingsTest(unittest.TestCase):
             "HELLO, CITIZEN!",
             msg="greet_with_style should return a greeting after applying all functions passed to *args",
         )
-
-        def starify(s):
-            return "*".join(list(s))
-
         self.assertEqual(
             greet_with_style(
-                "Citizen",
-                starify,
-                cap,
-                msg="Greetings",
-                punctuation="!",
-                sep="*",
+                "Citizen", starify, cap, msg="Greetings", punctuation="!", sep="*",
             ),
             "G*R*E*E*T*I*N*G*S***C*I*T*I*Z*E*N*!",
             msg="greet_with_style should return a greeting after applying all functions passed to *args",
@@ -107,8 +105,30 @@ class GreetingsTest(unittest.TestCase):
             "Gregson, Son of Greg, Leader of Kobolds",
             msg="add_epitaphs should add ', {key} of {value}' for all epitaphs in **kwargs to name and return it",
         )
-        self.assertEqual(greet_with_style(add_epitaphs(
-            "Gregson", Son="Greg", Leader="Kobolds"), cap, msg="Hello", punctuation="!"), "HELLO, GREGSON, SON OF GREG, LEADER OF KOBOLDS!")
+        self.assertEqual(
+            greet_with_style(
+                add_epitaphs("Gregson", Son="Greg", Leader="Kobolds"),
+                cap,
+                msg="Hello",
+                punctuation="!",
+            ),
+            "HELLO, GREGSON, SON OF GREG, LEADER OF KOBOLDS!",
+        )
+
+    def test_annotations(self):
+        self.assertIsNotNone(
+            greet_with_style.__doc__, msg="Add a doc string to greet_with_style"
+        )
+        sig = signature(greet_with_style)
+        for p in sig.parameters:
+            self.assertNotEqual(
+                sig.parameters[p].annotation, sig.parameters[p].empty)
+
+        self.assertEqual(
+            sig.return_annotation,
+            str,
+            msg="greet_with_style should have a return type of str",
+        )
 
 
 if __name__ == "__main__":
