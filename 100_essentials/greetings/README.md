@@ -31,7 +31,7 @@ Define a function named `greet_with_style` that takes a name as a required posit
 'G*R*E*E*T*I*N*G*S***C*I*T*I*Z*E*N*!'
 ```
 
-Define a function name `add_epitaphs` that will add epitaphs to a name. `add_epitaphs` should take a name and an arbitrary amount of key word arguments as inputs and return a string that is a name with all epitaphs added to it in the following format:
+Define a function named `add_epitaphs` that will add epitaphs to a name. `add_epitaphs` should take a name and an arbitrary amount of key word arguments as inputs and return a string that is a name with all epitaphs added to it in the following format:
 
 ```python
 >>> add_epitaphs("Gregson", Son="Greg", Leader="Kobolds")
@@ -45,9 +45,15 @@ Define a function name `add_epitaphs` that will add epitaphs to a name. `add_epi
 
 Add a doc string and annotations to `greet_with_style`. A good doc string might describe what the function does and any inputs and outputs. For parameter and return annotations use either [type hinting](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) or write a short description for each parameter.
 
-- bonus: positional only? What's a use case for positional only (a,b,/,x,y)?
-- bonus: functions can return functions
-- bonus: decorators example: trace, challenge: write partial apply
+## Hints
 
-- Hint: Example of a function named hello_world that has no inputs and returns the string "Hello, world!", https://docs.python.org/3.8/tutorial/controlflow.html#defining-functions
-- Hint: Example of using \*args as a list of functions
+- [Python Docs tutorial section on fuctions](https://docs.python.org/3.8/tutorial/controlflow.html#defining-functions)
+- [Variable length arguments in python](https://www.youtube.com/watch?v=kB829ciAXo4)
+- [Documenting Python Code](https://realpython.com/documenting-python-code/)
+- [Type hint cheat sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
+
+## Tests
+
+Move your terminal to the directory that contains this README and then run `python -m unittest` to run the tests for this challenge.
+
+Good luck!
