@@ -75,9 +75,13 @@ Challenges are organized from Very Easy -> Expert. Within each category, they ar
 
 This series of challenges is meant to ensure you understand the basics of Python. You may complete them in order, or jump around if there's a particular topic you'd like to challenge yourself on.
 
-|             name              |                  topics                   |     author      |
-| :---------------------------: | :---------------------------------------: | :-------------: |
-| [Circle](../Circle/README.md) | `classes`, `properties`, `dunder methods` | @nickcannariato |
+|                           name                           |                   topics                   |      author      |
+| :------------------------------------------------------: | :----------------------------------------: | :--------------: |
+|  [Coordinates](../100_essentials/coordinates/README.md)  |      `variables`, `numbers`, `types`       | @duckeverlasting |
+| [Log Transfer](../100_essentials/log_transfer/README.md) | `variables`, `numbers`, `strings`, `types` | @duckeverlasting |
+|     [Messages](../100_essentials/messages/README.md)     |         `strings`, `control flow`          |    @brannanc     |
+|    [Greetings](../100_essentials/greetings/README.md)    |  `functions`, `parameters`, `annotations`  |    @brannanc     |
+|       [Circle](../100_essentials/Circle/README.md)       | `classes`, `properties`, `dunder methods`  | @nickcannariato  |
 
 
 ### 200-level: Digging Deeper
