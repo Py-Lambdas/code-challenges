@@ -1,6 +1,6 @@
 # Messages
 
-You've written a bunch of messages but you realize not that your shift key was broken. Write a function that Capitalizes the first letter of a message.
+You've written a bunch of messages but you failed to realize that your shift key was broken. Write a function that Capitalizes the first letter of a message.
 
 ```python
 >>> fix_message('this is a very serious message xoxo')
@@ -14,14 +14,14 @@ For some reason you've signed all your messages with `xoxo`. That's embarrassing
 'This is a very serious message'
 ```
 
-Additionally, if the msg is an empty string return None.
+Additionally, if the message is an empty string return None.
 
 ```python
 >>> fix_message('')
 None
 ```
 
-And if the length of the message is over 50 return the first 50 characters.
+And if the length of the message is over 50 characters, return a message with only the first 50 characters.
 
 ```python
 >>> msg = "we interrupt this program to annoy you and make things generally more irritating."

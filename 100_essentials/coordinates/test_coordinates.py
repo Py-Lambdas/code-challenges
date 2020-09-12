@@ -19,21 +19,27 @@ class coordinatesTests(unittest.TestCase):
         slope = (11 - 4) / (6 - 0)
         self.assertEqual(coordinates.slope, slope)
         self.assertTrue(slope == coordinates.slope)
-        with open('./coordinates.py', 'r') as file:
+        with open("./coordinates.py", "r") as file:
             source_code = file.read()
             self.assertNotIn(
-                '1.16', source_code, msg="No, that's cheating. Code the equation for slope.")
+                "1.16",
+                source_code,
+                msg="No, that's cheating. Code the equation for slope.",
+            )
 
     def test_third_coords(self):
         self.assertIsInstance(coordinates.x3, int)
         self.assertEqual(coordinates.x3, 14)
         self.assertIsInstance(coordinates.y3, int)
         self.assertEqual(coordinates.y3, 20)
-        with open('./coordinates.py', 'r') as file:
+        with open("./coordinates.py", "r") as file:
             source_code = file.read()
             self.assertNotIn(
-                '20', source_code, msg="No, that's cheating. Don't hard code the answer. Hint: round(slope * x3 + y1)")
+                "20",
+                source_code,
+                msg="No, that's cheating. Don't hard code the answer. Hint: round(slope * x3 + y1)",
+            )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main(verbosity=2)
