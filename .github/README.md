@@ -20,7 +20,7 @@ If that sounds like something you're interested in, welcome!
 
 ### How do I get started?
 
-Fork this repository and start coding away!🚀 Test your solution by running the associated unit test. When you are reading to submit, submit a Pull Request to the [submissions](https://github.com/Py-Lambdas/code-challenges/tree/submissions) branch with your solution.
+Fork this repository and start coding away!🚀 Test your solution by running the associated unit test.
 
 ### How do I check my code?
 
@@ -38,9 +38,9 @@ Absolutely! All challenges have associated unit tests to check if the code is co
 
 Yes! Please take a look through [our currently open `challenge:new-addition`) issues](https://github.com/Py-Lambdas/code-challenges/labels/challenge%3Anew-addition) and pick one that you think sounds interesting to work on.
 
-An example of a good challenge to use as a template for now would be the [Circle challenge](https://github.com/Py-Lambdas/code-challenges/tree/master/Circle). SpecificA ally, your new challenge should have:
+An example of a good challenge to use as a template for now would be the [Circle challenge](https://github.com/Py-Lambdas/code-challenges/tree/master/Circle). Specifically, your new challenge should have:
 
-- An informational `README.md` containing: 
+- An informational `README.md` containing:
   - information about the challenge, and examples of the behavior you'll be testing for.
   - (Optionally) a bonus or two that stretch people to think more pythonically
   - A "Hints" section which links to documentation, articles, videos, and/or particularly informative Stack Overflow answers which provide the knowledge and background necessary to complete the challenge
@@ -83,7 +83,6 @@ This series of challenges is meant to ensure you understand the basics of Python
 |    [Greetings](../100_essentials/greetings/README.md)    |  `functions`, `parameters`, `annotations`  |    @brannanc     |
 |       [Circle](../100_essentials/Circle/README.md)       | `classes`, `properties`, `dunder methods`  | @nickcannariato  |
 
-
 ### 200-level: Digging Deeper
 
 Now that you've got the essentials of Python under your belt, these challenges are meant to take you on a tour of some of the more commonly seen yet Python-specific features of the language.
@@ -112,7 +111,7 @@ Python allows for both Object-oriented programming and Functional programming, a
 
 ### 500-level: The Standard Library
 
-Now that you've got a really good handle on Python's language features, we're gonna give you a detailed tour of Python's Standard Library. 
+Now that you've got a really good handle on Python's language features, we're gonna give you a detailed tour of Python's Standard Library.
 
 The particular module(s) used by a given challenge will be listed in the `modules` column, which you'll notice has replaced the `topics` column above.
 
@@ -122,6 +121,6 @@ The particular module(s) used by a given challenge will be listed in the `module
 
 ### Misc
 
-This `misc` folder of includes more traditional whiteboarding-focused challenges. 
+This `misc` folder of includes more traditional whiteboarding-focused challenges.
 
 As mentioned earlier in this README, this is _not_ the focus of this repository or the challenges we're currently interested in accepting, but we wanted to include them and potentially add to them in the future.
