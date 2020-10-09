@@ -80,7 +80,9 @@ This series of challenges is meant to ensure you understand the basics of Python
 |  [Coordinates](../100_essentials/coordinates/README.md)  |      `variables`, `numbers`, `types`       | @duckeverlasting |
 | [Log Transfer](../100_essentials/log_transfer/README.md) | `variables`, `numbers`, `strings`, `types` | @duckeverlasting |
 |     [Messages](../100_essentials/messages/README.md)     |         `strings`, `control flow`          |    @brannanc     |
+|      [Secrets](../100_essentials/secrets/README.md)      |             `loops`, `strings`             |    @brannanc     |
 |    [Greetings](../100_essentials/greetings/README.md)    |  `functions`, `parameters`, `annotations`  |    @brannanc     |
+|         [Line](../100_essentials/line/README.md)         |   `classes`, `methods`, `dunder methods`   | @duckeverlasting |
 |       [Circle](../100_essentials/Circle/README.md)       | `classes`, `properties`, `dunder methods`  | @nickcannariato  |
 
 ### 200-level: Digging Deeper
