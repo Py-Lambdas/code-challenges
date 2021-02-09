@@ -46,6 +46,6 @@ Some particulars about this new implementation:
 
 Move your terminal to the directory that contains this README and then run `python -m unittest` to run the tests for this challenge.
 
-Feel free to reference the tests if you have any confusion about the expected behavior of the Circle class.
+Feel free to reference the tests if you have any confusion about the expected behavior.
 
 Good luck!
