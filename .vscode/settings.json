@@ -1,5 +1,4 @@
 {
-  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
   "python.analysis.diagnosticPublishDelay": 1000,
   "python.analysis.disabled": [],
   "python.analysis.errors": [
@@ -28,15 +27,15 @@
     "no-method-argument"
   ],
   "python.autoComplete.addBrackets": false,
-  "python.condaPath": "conda",
   "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
   "python.linting.banditEnabled": false,
   "python.linting.flake8Enabled": false,
   "python.linting.flake8Args": ["--max-line-length", "88"],
-  "python.linting.mypyEnabled": false,
+  "python.linting.mypyEnabled": true,
   "python.sortImports.path": "isort",
   "python.sortImports.args": ["--profile", "black"],
+  "python.venvPath": "${workspaceFolder}",
   "[python]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
