@@ -2,11 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Python: Current File",
+      "name": "Debug module",
       "type": "python",
       "request": "launch",
       "program": "${file}",
-      "console": "integratedTerminal"
+      "console": "internalConsole"
+    },
+    {
+      "name": "Debug with tests",
+      "type": "python",
+      "request": "launch",
+      "program": "${fileDirname}${pathSeparator}test_${fileBasename}",
+      "console": "internalConsole"
     }
   ]
 }
