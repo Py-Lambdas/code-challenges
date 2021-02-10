@@ -1,3 +1,47 @@
 {
-  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3"
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
+  "python.analysis.diagnosticPublishDelay": 1000,
+  "python.analysis.disabled": [],
+  "python.analysis.errors": [
+    "inherit-non-class",
+    "no-cls-argument",
+    "no-self-argument",
+    "parameter-already-specified",
+    "parameter-missing",
+    "positional-argument-after-keyword",
+    "positional-only-named",
+    "return-in-init",
+    "typing-generic-arguments",
+    "typing-typevar-arguments",
+    "typing-newtype-arguments",
+    "unresolved-import",
+    "undefined-variable"
+  ],
+  "python.analysis.warnings": [
+    "unknown-parameter-name",
+    "variable-not-defined-globally",
+    "variable-not-defined-nonlocal"
+  ],
+  "python.analysis.information": [
+    "too-many-function-arguments",
+    "too-many-positional-arguments-before-star",
+    "no-method-argument"
+  ],
+  "python.autoComplete.addBrackets": false,
+  "python.condaPath": "conda",
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.linting.banditEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.flake8Args": ["--max-line-length", "88"],
+  "python.linting.mypyEnabled": false,
+  "python.sortImports.path": "isort",
+  "python.sortImports.args": ["--profile", "black"],
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
 }

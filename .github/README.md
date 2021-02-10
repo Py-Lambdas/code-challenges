@@ -20,15 +20,59 @@ If that sounds like something you're interested in, welcome!
 
 ### How do I get started?
 
-Fork this repository and start coding away!🚀 Test your solution by running the associated unit test.
+***NOTE**: If you're an experienced developer and/or have opinions about your preferred text editor and environment management tool, then feel free to skip this section, fork & clone this repository, and get going however you'd like. However, if you're newer to Python, already use VS Code as your preferred editor, and/or just like an automated setup, keep reading.*
+
+We have an automated setup script that will get you started with our recommended environment. It will work on macOS, Windows, and Linux as long as the you've met the following prerequisites:
+
+- You have Python 3 installed on your system and available somewhere in your `$PATH` (e.g. if you run `python --version` in your terminal of choice you get `Python 3.x.x` or something similar)
+- You have VS Code installed and the associated `code` command available somewhere in your `$PATH` (i.e. if you run `code --version` you get output of some kind rather than an error).
+
+If you meet both of the above prerequesites, then the process for getting started looks like this:
+
+1. [Fork this repository into your own account](https://github.com//Py-Lambdas/code-challenges/fork). This allows you to commit your solutions and push them to your own repository so you can show off your progress.
+2. [Clone the repository to your local computer](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). Generally this is done with `git clone https://github.com/Py-lambdas/code-challenges`, but you can also use the [GitHub CLI](https://cli.github.com/) by running `gh repo:clone Py-lambdas/code-challenges`
+3. Navigate your terminal into the `code-challenges` directory. If you're using a *nix shell like bash, zsh, or fish, you'll use the `cd` command to do this (e.g. `cd code-challenges` or `cd path/to/code-challenges`)
+4. Run `python3 bin/setup.py` in order to run the installer
+5. Open the `code-challenges` repository in VS Code by running `code .` once step 4 completes successfully.
+
+Once you've done this setup process, you can just skip to step 5 every time you want to complete a challenge from then on.
 
 ### How do I check my code?
 
-Within the directory of your code challenge, run the following command for unit testing:
+There are a couple ways at your disposal, depending on who you are as a person.
+
+**t3rm1n4l is lyf3 and I think nice things make me weak**:
+
+Within the directory of the specific code challenge you're using, run the following command:
 
 ```shell
 python -m unittest
 ```
+
+**I'm ✨fancy✨ and have ✨exquisite✨ taste**:
+
+We have a `launch.json` script that will run python's debugger inside of VS Code.
+
+There are two separate strategies for running it. The first is to create a `if __name__ == '__main__'` block in your python module that tests the code, and then use `breakpoint()` when you'd like to check something. For example if you're creating an `add` function that will add two numbers together, and you want the debugger to pause so you can check what your parameters are every time it runs, you would write the module like so:
+
+```python
+
+def add(x, y):
+    breakpoint()
+    return x + y
+
+if __name__ == '__main__':
+  add(2, 2)
+  add(2, 4)
+  add('one', 3)
+```
+
+To run this in debug mode, you'll go to the debug pane in VS Code (`CMD+SHIFT+D` on macOS, `CTRL+SHIFT+D` on windows), and then select the `Debug module` option in the drop down before clicking the play button.
+
+Alternatively, if you want to run the script in the context of the test inputs, you can add a breakpoint anywhere in your code and then skip to running the debugger _without_ adding a `if __name__ == '__main__'` block by running the `Debug with tests` option in the dropdown.
+
+More information on using VS Code's debugger can be found at the link below:
+https://code.visualstudio.com/docs/editor/debugging
 
 ### Can I help you out with code reviewing?
 
