@@ -25,14 +25,12 @@ def run_command(command: List[str]):
     """
     Attempt to run a specific shell command in the users's shell
     """
-    print(f"\t{' '.join(str(part) for part in command)}")
+    print(f"\n\n{' '.join(str(part) for part in command)}")
     try:
         sub.run(
             command,
             check=True,
             encoding="utf-8",
-            stdout=sub.DEVNULL,
-            stderr=sub.DEVNULL,
         )
     except sub.CalledProcessError:
         warnings.warn(
