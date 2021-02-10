@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import subprocess as sub
 import sys
 import venv
@@ -46,25 +47,26 @@ def create_virtual_environment():
     Generates a virtual environment for the user, including special packages
     """
     VENV_PATH = Path.cwd() / ".venv"
+    WIN_PY = VENV_PATH / "Scripts" / "python.exe"
+    NIX_PY = VENV_PATH / "bin" / "python3"
+    PACKAGE_LIST = [
+        "pip",
+        "setuptools",
+        "black",
+        "flake8",
+        "isort",
+        "mypy",
+    ]
 
     if not VENV_PATH.exists():
-        venv.create(VENV_PATH, with_pip=True, upgrade_deps=True)
+        venv.create(VENV_PATH, with_pip=True)
     else:
         print(f"{VENV_PATH.name} exists! Installing dependencies")
 
-    run_command(
-        [
-            VENV_PATH / "bin" / "python3",
-            "-m",
-            "pip",
-            "install",
-            "-U",
-            "black",
-            "flake8",
-            "isort",
-            "mypy",
-        ]
-    )
+    if os.name == "nt":
+        run_command([WIN_PY, "-m", "pip", "install", "-U", *PACKAGE_LIST])
+    else:
+        run_command([NIX_PY, "-m", "pip", "install", "-U", *PACKAGE_LIST])
 
 
 def install_vscode_extensions():
