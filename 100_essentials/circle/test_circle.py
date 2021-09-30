@@ -8,7 +8,7 @@ class CircleTests(unittest.TestCase):
     def test_radius(self):
         """
         A circle should take a radius as an argument, and that radius
-        sholud be accessible as an attribute.
+        should be accessible as an attribute.
         """
         circle = Circle(5)
         self.assertEqual(circle.radius, 5)
